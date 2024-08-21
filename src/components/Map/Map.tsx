@@ -18,12 +18,12 @@ const Map = () => {
       <MapContainer
         center={[29.169771, -110.911208]}
         zoom={17}
-        style={{ height: "100vh", width: "100%" }}
+        style={{ height: "40vh", width: "100%" }}
       >
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         <Marker position={[29.169771, -110.911208]}>
           <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
+            El evento es en el Auditorio del Edificio 3. <br /> También conocido como el Edificio de Negocios. 
           </Popup>
         </Marker>
       </MapContainer>

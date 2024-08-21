@@ -1,0 +1,11 @@
+.map {
+    width: 80rem;
+    
+    transition: filter 300ms;
+    will-change: filter;
+    padding: 1.5em;
+}
+
+.map:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}

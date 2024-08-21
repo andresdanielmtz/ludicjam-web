@@ -1,0 +1,8 @@
+#footer-phrase {
+    font-size: 2rem;
+    /* Equivalent to text-4xl */
+    font-weight: 800;
+    /* Equivalent to font-extrabold */
+    color: white;
+    /* Equivalent to dark:text-white */
+}

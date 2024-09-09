@@ -15,6 +15,7 @@ L.Marker.prototype.options.icon = DefaultIcon;
 const Map = () => {
   return (
     <div className="map">
+      <div className="map__title"> Localisac</div>
       <MapContainer
         center={[29.169771, -110.911208]}
         zoom={17}
@@ -22,7 +23,7 @@ const Map = () => {
       >
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         <Marker position={[29.169771, -110.911208]}>
-          <Popup>
+          <Popup >
             El evento es en el Auditorio del Edificio 3. <br /> También conocido como el Edificio de Negocios. 
           </Popup>
         </Marker>

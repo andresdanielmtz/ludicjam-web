@@ -12,6 +12,7 @@
     align-items: center;  
     transition: filter 300ms;
     will-change: filter;
+    margin-bottom: 0.5em;
 }
 
 .map:hover {

@@ -1,8 +1,21 @@
-#footer-phrase {
-    font-size: 2rem;
-    /* Equivalent to text-4xl */
-    font-weight: 800;
-    /* Equivalent to font-extrabold */
+.footer-phrase {
+    font-size: 1rem;
+    font-style: normal;
     color: white;
-    /* Equivalent to dark:text-white */
+}
+
+.footer-container {
+    width: 100%;
+    height: 36.625em;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 3rem;
+
+}
+
+.footer-content {
+    display: flex;
+    gap: 2rem;
 }

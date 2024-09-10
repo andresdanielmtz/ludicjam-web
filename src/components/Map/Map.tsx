@@ -15,7 +15,7 @@ L.Marker.prototype.options.icon = DefaultIcon;
 const Map = () => {
   return (
     <div className="map_wrapper">
-      <div className="map_title"> Locaciones</div>
+      <div className="map_title">Ubicaciones</div>
       <div className="map_description">Tanto los talleres como el evento como tal ocurrirán dentro del <div className="highlight">Campus</div>, mientras que el evento de exposición será en <div className="highlight">Parque La Ruina</div>.</div>
       <div className="map">
       <MapContainer

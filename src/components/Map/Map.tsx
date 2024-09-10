@@ -14,12 +14,14 @@ L.Marker.prototype.options.icon = DefaultIcon;
 
 const Map = () => {
   return (
-    <div className="map">
-      <div className="map__title"> Localisac</div>
+    <div className="map_wrapper">
+      <div className="map_title"> Locaciones</div>
+      <div className="map_description">Tanto los talleres como el evento como tal ocurrirán dentro del <div className="highlight">Campus</div>, mientras que el evento de exposición será en <div className="highlight">Parque La Ruina</div>.</div>
+      <div className="map">
       <MapContainer
         center={[29.169771, -110.911208]}
         zoom={17}
-        style={{ height: "40vh", width: "100%" }}
+        style={{ height: "55vh", width: "100%" }}
       >
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         <Marker position={[29.169771, -110.911208]}>
@@ -28,6 +30,7 @@ const Map = () => {
           </Popup>
         </Marker>
       </MapContainer>
+      </div>
     </div>
   );
 };

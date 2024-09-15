@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+.phases-container {
+    font-family: 'Kumbh Sans', system-ui, Avenir, Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-bottom: 6rem;
+}
+
+.phases-content {
+    display: block;
+    text-align: left;
+}
+
+.phases-title-subtitle {
+    margin-left: 13.2rem;
+}
+
+.phases-title {
+    font-weight: 700;
+    color: rgba(40, 38, 81, 1);
+    font-size: 6rem;
+}
+
+.phases-subtitle {
+    color: rgba(0, 0, 0, 1);
+    font-size: 2.25rem;
+    width: 46rem;
+}
+
+.phase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.bullet-point {
+    width: 7.313rem;
+    height: 7.313rem;
+}
+
+.phase-text {
+    display: block;
+
+}
+
+#phase-title {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.phase-desc {
+    color: rgba(0, 0, 0, 1);
+    font-size: 2rem;
+    margin-top: 0;
+    width: 61.25rem;
+}
+.phase-desc #ruina {
+    font-weight: 700;
+    color: rgba(50, 44, 196, 1);
+}

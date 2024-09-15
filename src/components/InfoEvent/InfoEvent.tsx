@@ -1,33 +1,13 @@
-import React, { useCallback } from "react";
+import React from "react";
 import "./InfoEvent.css";
 import PeopleWorking from "../../assets/people_working.png";
-import Particles from "react-tsparticles";
-import ParticleConfig from "../../config/particleConfig.json";
-import ParticleConfigNoParticle from "../../config/particleConfig_noParticle.json";
-import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
 
 const InfoEvent = () => {
-  const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
-    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
-    //await loadFull(engine);
-    await loadSlim(engine);
-  }, []);
 
-  const particlesLoaded = useCallback(async (container: any) => {
-    await console.log(container);
-  }, []);
 
   return (
     <div style={styles.container}>
-      <Particles
-        id="tsparticles"
-        url="http://foo.bar/particles.json"
-        init={particlesInit}
-        loaded={particlesLoaded}
-      />
+
 
       <div style={styles.textSection}>
         <h1 style={styles.title}>¿Qué es Ludic Jam?</h1>

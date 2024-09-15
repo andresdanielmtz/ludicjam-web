@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+    .hide-on-mobile {
+      display: none; /* Hides the image on screens smaller than 768px */
+    }
+  }

@@ -10,10 +10,13 @@ function App() {
       <div id="root">
         <Header />
         <InfoEvent />
+
+    <div className = "white-bg"> 
         <Phases />
         <div className="mapComponent">
           <Map />
         </div>
+        </div> 
         <Footer />
       </div>
     </>

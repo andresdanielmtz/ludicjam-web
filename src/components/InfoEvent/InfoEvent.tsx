@@ -52,7 +52,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     marginBottom: "10px",
   },
   description: {
-    fontSize: "1.2rem",
+    fontSize: "1.8rem",
     lineHeight: "1.5",
     textAlign: "justify",
   },

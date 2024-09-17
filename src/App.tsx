@@ -11,12 +11,12 @@ function App() {
         <Header />
         <InfoEvent />
 
-    <div className = "white-bg"> 
-        <Phases />
-        <div className="mapComponent">
-          <Map />
+        <div className="white-bg">
+          <Phases />
+          <div className="mapComponent">
+            <Map />
+          </div>
         </div>
-        </div> 
         <Footer />
       </div>
     </>

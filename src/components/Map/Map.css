@@ -4,7 +4,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
 }
 
 .map {
@@ -50,5 +49,8 @@
   .map {
     width: 90%;
 
+  }
+  .map_title {
+    font-size: 3.5em;
   }
 }

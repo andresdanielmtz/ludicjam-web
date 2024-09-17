@@ -31,6 +31,22 @@ const Map = () => {
         </Marker>
       </MapContainer>
       </div>
+      <div className="map_description">Parque de Emprendimiento e Innovación, Piso 3</div>
+      <div className="map">
+      <MapContainer
+        center={[29.097296611061033, -110.94689954907565]}
+        zoom={17}
+        style={{ height: "55vh", width: "100%" }}
+      >
+        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+        <Marker position={[29.097296611061033, -110.94689954907565]}>
+          <Popup >
+            La presentación de los proyectos se llevará acabo en La Ruina.
+          </Popup>
+        </Marker>
+      </MapContainer>
+      </div>
+      <div className="map_description">Parque La Ruina<br></br></div>
     </div>
   );
 };

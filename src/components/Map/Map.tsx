@@ -31,7 +31,7 @@ const Map = () => {
         </Marker>
       </MapContainer>
       </div>
-      <div className="map_description">Parque de Emprendimiento e Innovación, Piso 3</div>
+      <div className="map_description_s">Parque de Emprendimiento e Innovación, Piso 3</div>
       <div className="map">
       <MapContainer
         center={[29.097296611061033, -110.94689954907565]}
@@ -46,7 +46,7 @@ const Map = () => {
         </Marker>
       </MapContainer>
       </div>
-      <div className="map_description">Parque La Ruina<br></br></div>
+      <div className="map_description_s">Parque La Ruina<br></br></div>
     </div>
   );
 };

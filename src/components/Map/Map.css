@@ -35,6 +35,14 @@
   margin-bottom: 1.5em;
   color: black;
 }
+.map_description_s {
+  font-size: 1em;
+  font-weight: 350;
+  margin: 1.2em 0;
+  width: 60%;
+  margin-bottom: 1.5em;
+  color: black;
+}
 
 .highlight {
   font-weight: 800;

@@ -19,8 +19,8 @@ function App() {
             <Map />
           </div>
         </div>
+        <ReadySection />
 
-        <ReadySection /> 
         <Footer />
       </div>
     </>

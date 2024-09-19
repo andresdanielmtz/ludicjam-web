@@ -12,7 +12,6 @@ function App() {
       <div id="root">
         <Header />
         <InfoEvent />
-
         <div className="white-bg">
           <Phases />
           <div className="mapComponent">
@@ -20,7 +19,6 @@ function App() {
           </div>
         </div>
         <ReadySection />
-
         <Footer />
       </div>
     </>

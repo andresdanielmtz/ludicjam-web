@@ -4,6 +4,8 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import InfoEvent from "./components/InfoEvent/InfoEvent";
 import Phases from "./components/Phases/Phases";
+import ReadySection from "./components/Ready/Ready";
+
 function App() {
   return (
     <>
@@ -17,6 +19,8 @@ function App() {
             <Map />
           </div>
         </div>
+
+        <ReadySection /> 
         <Footer />
       </div>
     </>

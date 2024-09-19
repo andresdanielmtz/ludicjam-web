@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
 
 .phases-container {
     font-family: 'Kumbh Sans', system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -8,57 +8,101 @@
 }
 
 .phases-content {
-    display: block;
-    text-align: left;
+  display: block;
+  text-align: left;
 }
 
 .phases-title-subtitle {
-    margin-left: 13.2rem;
+  margin-left: 13.2rem;
 }
 
 .phases-title {
-    font-weight: 700;
-    color: rgba(40, 38, 81, 1);
-    font-size: 6rem;
+  font-weight: 700;
+  color: rgba(40, 38, 81, 1);
+  font-size: 6rem;
+  margin-top: 1em;
 }
 
 .phases-subtitle {
-    color: rgba(0, 0, 0, 1);
-    font-size: 2.25rem;
-    width: 46rem;
+  color: rgba(0, 0, 0, 1);
+  font-size: 2.25rem;
+  width: 46rem;
 }
 
 .phase {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
 }
 
 .bullet-point {
-    width: 7.313rem;
-    height: 7.313rem;
+  width: 7.313rem;
+  height: 7.313rem;
 }
 
 .phase-text {
-    display: block;
-
+  display: block;
 }
 
 #phase-title {
-    color: rgba(0, 0, 0, 1);
-    font-weight: 700;
-    font-size: 2.5rem;
-    margin-bottom: 0;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 0;
 }
 
 .phase-desc {
-    color: rgba(0, 0, 0, 1);
-    font-size: 2rem;
-    margin-top: 0;
-    width: 61.25rem;
+  color: rgba(0, 0, 0, 1);
+  font-size: 2rem;
+  margin-top: 0;
+  width: 61.25rem;
 }
 .phase-desc #ruina {
-    font-weight: 700;
-    color: rgba(50, 44, 196, 1);
+  font-weight: 700;
+  color: rgba(50, 44, 196, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .phases-container {
+    display: block;
+    padding-bottom: 2rem;
+  }
+
+  .phases-content {
+    display: block;
+    text-align: center;
+  }
+
+  .phases-title-subtitle {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .phases-title {
+    text-align: center;
+    margin-top: 0;
+    font-size: 3rem;
+  }
+  
+  .phases-subtitle {
+    font-size: 1.5rem;
+    width: auto;
+  }
+
+  .phase {
+    display: block;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .phase-desc {
+    font-size: 1.2rem;
+    width: auto;
+  }
+
+  .bullet-point {
+    width: 5rem;
+    height: 5rem;
+  }
 }

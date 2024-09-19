@@ -22,14 +22,21 @@
 }
 
 @media screen and (max-width: 768px) {
+    .footer-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
     .footer-content{
         display: block;
+        padding: 20px;
     }
 
     .footer-phrase {
         max-width: 100%;
         font-size: 0.7rem;
         width: 100%;
+        padding-bottom: 2rem;
     }
 
     img {

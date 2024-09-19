@@ -21,6 +21,7 @@ const Map = () => {
         <div className="highlight">Campus</div>, mientras que el evento de
         exposición será en <div className="highlight">Parque La Ruina</div>.
       </div>
+
       <div className="map">
         <MapContainer
           center={[29.169771, -110.911208]}

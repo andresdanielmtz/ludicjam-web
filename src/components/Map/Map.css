@@ -23,7 +23,7 @@
   font-size: 4.31em;
   font-weight: 500;
   margin-bottom: 0.02em;
-  color: #322CC4;
+  color: #322cc4;
   text-align: center;
 }
 
@@ -34,6 +34,10 @@
   width: 60%;
   margin-bottom: 1.5em;
   color: black;
+}
+
+.map_subdescription {
+  font-size: 0.6em;
 }
 
 .highlight {
@@ -47,8 +51,7 @@
   }
 
   .map {
-    width: 90%;
-
+    width: 100%;
   }
   .map_title {
     font-size: 3.5em;

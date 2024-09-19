@@ -1,6 +1,7 @@
 import LudicWebLandingVideo from "./../../assets/LudicWebLandingVideo.mp4";
 import "./Header.css";
 import LudicLogo from "../../assets/images/ludiclogo.png";
+import EnterpeneurshipLogo from "../../assets/images/EmprLogo.png";
 
 const Header = () => {
   return (
@@ -16,6 +17,8 @@ const Header = () => {
           ¿Listo para el <b>Game Jam</b> más grande de{" "}
           <span id="hmo">Hermosillo </span>?
         </h1>
+
+        <img src={EnterpeneurshipLogo} id="emprendimientoLogo" />
       </div>
     </div>
   );

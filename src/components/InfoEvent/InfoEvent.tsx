@@ -3,12 +3,8 @@ import "./InfoEvent.css";
 import PeopleWorking from "../../assets/people_working.png";
 
 const InfoEvent = () => {
-
-
   return (
     <div style={styles.container}>
-
-
       <div style={styles.textSection}>
         <h1 style={styles.title}>¿Qué es Ludic Jam?</h1>
         <p style={styles.description}>

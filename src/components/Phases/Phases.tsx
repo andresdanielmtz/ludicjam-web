@@ -42,7 +42,7 @@ const Phases = () => {
             <div className="phase-text">
               <p id="phase-title">Exposición</p>
               <p className="phase-desc">
-                Finalmente, el <strong>día 26 de Septiembre</strong> habrá un
+                Finalmente, el <strong>día 2 de Octubre</strong> habrá un
                 showcase especial en el <span id="ruina">Parque La Ruina</span>,
                 ¡No te lo pierdas!
               </p>
